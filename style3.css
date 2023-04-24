@@ -1,0 +1,204 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+  }
+  
+  .search input[type="text"] {
+    border: none;
+    font-size: 18px;
+    margin-right: 10px;
+    width: 450px;
+  }
+  
+  .search button {
+    background-color: #0C713D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    text-align: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  li a {
+    font-size: large;
+      color: #333;
+      text-decoration: none;
+  }
+  .image1{
+    height: auto;
+    width: 100px;
+  }
+.container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+.product {
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+.product-image {
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+}
+
+.product-title {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.product-price {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.product-description {
+	margin-bottom: 20px;
+}
+
+.add-to-cart {
+	display: block;
+	margin: auto;
+	padding: 10px 20px;
+	background-color: #0C713D;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.add-to-cart:hover{
+    font-size: larger;
+}
+footer{
+    background-color: #0C713D;
+}
+#call{
+    font-size: small;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input1{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+.hidden-table tbody tr {
+    display: none;
+}
+  
+  /* Hiển thị dòng */
+  .hidden-table tbody tr:hover {
+    display: table-row;
+}
+  
+  /* Thiết lập giao diện cho bảng */
+.hidden-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.hidden-table th,
+.hidden-table td {
+    padding: 8px;
+    text-align: left;
+}
+  
+.hidden-table th:first-child,
+.hidden-table td:first-child {
+    padding-left: 0;
+}
+table{
+    font-size: large;
+}
+
+.container1 {
+    
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+.container1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.page-title1 {
+	font-size: 36px;
+	margin-top: 0;
+}
+
+.product-row1 {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	margin-bottom: 20px;
+}
+
+.product1 {
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.product1:last-child {
+	margin-right: 0;
+}
+
+.product-image1 {
+	width: 100px;
+  height: 100px;
+}
+
+.product-title1 {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.product-price1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+}
+.nhap2{
+    color: black;
+    display: flex;
+      padding-left: 2em;
+      text-align: left;
+      font-family: sans-serif;
+      text-decoration: none;
+  }
+  .image2{
+    padding-left: 2em;
+    height: auto;
+    width: 50px;
+  }

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-eBEoGKjT3JaMUs/C6edZvsg66fcC6e9+6RF4Cm8ijvxF4taXBQ2Mvec+D/2HdErZoJRXaI+1X/nt1HneNpCEaw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Thanh Toán</title>
+</head>
+<body>
+  <header>
+  <img src="logo.png" alt="Ảnh" class="image1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<div class="search">
+		<input type="text" placeholder="Tìm kiếm sản phẩm mong muốn...">
+		<button><i class="fas fa-search"></i></button>
+	</div>
+  <ul>
+    <li><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-bell"></i>Thông báo&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+    <li><a href="#"><i class="fas fa-shopping-cart"></i>Giỏ hàng&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+    <li><a href="#"><i class="fas fa-user"></i>Tài khoản&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+  </ul>
+  </header>
+  <br><br>
+<div class="container">
+  <div class="square">
+    <h2>Địa chỉ giao hàng</h2>
+    <div class="nhap2">
+      <h3>Họ tên người nhận</h3>
+      <input type="text" placeholder="">
+    </div>
+    <div class="nhap2">
+      <h3>Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
+      <input type="text" placeholder="">
+    </div>
+    <div class="nhap2">
+      <h3>Số điện thoại&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
+      <input type="text" placeholder="">
+    </div>
+    <div class="nhap2">
+      <h3>Quốc gia&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
+      <div>
+        <select id="countries" name="countries">
+          <option value="vn">Việt Nam</option>
+          <option value="us">Mỹ</option>
+          <option value="jp">Nhật Bản</option>
+          <option value="kr">Hàn Quốc</option>
+          <option value="cn">Trung Quốc</option>
+        </select>
+      </div>
+    </div>
+    <div class="nhap2">
+      <h3>Tỉnh/Thành phố&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
+      <div>
+        <select id="countries" name="countries">
+          <option value="vn">Chọn tỉnh/Thành phố</option>
+          <option value="vn">Thành phố Hồ Chí Minh</option>
+          <option value="us">Hà Nội</option>
+          <option value="jp">Huế</option>
+          <option value="kr">Vũng Tàu</option>
+        </select>
+      </div>
+    </div>
+    <div class="nhap2">
+      <h3>Quận/Huyện&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
+      <div>
+        <select id="countries" name="countries">
+          <option value="vn">Chọn Quận/Huyện</option>
+          <option value="vn">1</option>
+          <option value="vn">2</option>
+          <option value="vn">3</option>
+          <option value="vn">4</option>
+          <option value="vn">5</option>
+          <option value="vn">6</option>
+          <option value="vn">7</option>
+          <option value="vn">8</option>
+          <option value="vn">9</option>
+          <option value="vn">10</option>
+          <option value="vn">11</option>
+          <option value="vn">12</option>
+          <option value="vn">Tân Bình</option>
+          <option value="vn">Bình Thạnh</option>
+        </select>
+      </div>
+    </div>
+    <div class="nhap2">
+      <h3>Phường/Xã&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3>
+      <div>
+        <select id="countries" name="countries">
+          <option value="vn">Chọn Phường/Xã</option>
+          <option value="vn">1</option>
+          <option value="vn">2</option>
+          <option value="vn">3</option>
+          <option value="vn">4</option>
+          <option value="vn">5</option>
+          <option value="vn">6</option>
+          <option value="vn">7</option>
+          <option value="vn">8</option>
+          <option value="vn">9</option>
+          <option value="vn">10</option>
+          <option value="vn">11</option>
+          <option value="vn">12</option>
+          <option value="vn">Đa kao</option>
+          <option value="vn">Bến Nghé</option>
+          <option value="vn">Cầu Kho</option>
+          <option value="vn">Bến Thành</option>
+        </select>
+      </div>
+    </div>
+    <div class="nhap2">
+      <h3>Địa chỉ nhận hàng</h3>
+      <input type="text" placeholder="">
+    </div>
+
+  </div>
+</div>
+<div class="container1">
+  <div class="square1">
+    <h2>PHƯƠNG THỨC VẬN CHUYỂN</h2>
+    <div id="nhap1">
+      <input name="gender" type="radio" value="the1" ><b>Giao hàng tiêu chuẩn: 18.000đ</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThứ 7:15/4
+    </div>
+  </div>
+  
+</div>
+<div class="container">
+  <div class="square">
+    <h2>PHƯƠNG THỨC THANH TOÁN</h2>
+    <br>
+    <div id="nhap1">
+      <input name="gender" type="radio" value="the1" ><b>Ví ZaloPay</b>
+    </div>
+    <br><br>
+    <div id="nhap1">
+      <input name="gender" type="radio" value="the1" ><b>Ví Moca trên ứng dụng Grab</b>
+    </div>
+    <br><br>
+    <div id="nhap1">
+      <input name="gender" type="radio" value="the1" ><b>VnPAY</b>
+    </div>
+    <br><br>
+    <div id="nhap1">
+      <input name="gender" type="radio" value="the1" ><b>Ví ShopeePay</b>
+    </div>
+    <br><br>
+    <div id="nhap1">
+      <input name="gender" type="radio" value="the1" ><b>Ví MoMo</b>
+    </div>
+    <br><br>
+    <div id="nhap1">
+      <input name="gender" type="radio" value="the1" ><b>ATM/internet Banking</b>
+    </div>
+    <br><br>
+    <div id="nhap1">
+      <input name="gender" type="radio" value="the1" ><b>Visa/Master/JCB</b>
+    </div>
+    <br><br>
+    <div id="nhap1">
+      <input name="gender" type="radio" value="the1" ><b>Thanh toán bằng tiền mặt khi nhận hàng</b>
+    </div>
+
+  </div>
+</div>
+<div class="container1">
+  <div class="square1">
+    <h2>MÃ KHUYẾN MÃI/MÃ QUÀ TẶNG</h2>
+    <footer>
+      <div class="nhap3">
+        <h5>Mã KM/Quà Tặng&nbsp&nbsp&nbsp</h5>
+      <div class="search1">
+        <input type="text" placeholder="Nhận mã khuyến mãi/Quà tặng">
+        <button>Áp dụng</button>
+      </div>
+      <a href="#">&nbsp&nbsp&nbsp&nbsp&nbspChọn mã khuyến mãi</a>
+    </div>
+      </footer>
+  </div>
+</div>
+<br>
+<div class="container1">
+  <div class="square1">
+    <h4>KIỂM TRA LẠI SẢN PHẨM</h4>
+    <footer>
+      <div class="nhap3">
+        <a href="#"><img src="tra-hoa-duong-phen.png" alt="Ảnh" class="image2"></a>
+        <h3>Trà Hoa Đường Phèn&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 69.000đ&nbsp&nbsp&nbsp&nbsp&nbsp&nbspx1&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp69.000đ</h3>
+      </footer>
+  </div>
+</div>
+<br>
+<div class="end">
+  <a href="sanpham1.html" class="nhap2"><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-left"></i><b>&nbspQuay Lại Trang Giỏ Hàng</b> </a>
+  <form action="thanhcong.html">  
+    <button class="csw-btn-button" type="submit">Xác nhận thanh toán</button>
+</form>
+</div>
+</body>
+</html>

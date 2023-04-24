@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang chủ</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    </head>
+</head>
+<body>
+    <table>
+      <table class="hidden-table3">
+          <thead>
+            <tr>
+              <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+              <th><img src="delivery.png" alt="Ảnh" class="image3"></th>
+              <th><img src="logo.png" alt="Ảnh" class="image6"></th>
+              <th>
+                <button type="submit" class="gio">Giỏ hàng <img src="trolley-icon.png" alt="Ảnh" class="image4"></button>
+              </th>
+            </tr>
+          </thead>
+        </table>
+    </table>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">TRANG CHỦ&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+				<li><a href="#">CÀ PHÊ&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+				<li><a href="#">TRÀ&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+				<li><a href="#">THỨC UỐNG&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+        <li><a href="#">SẢN PHẨM&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+        <li><a href="#">KHUYẾN MÃI&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+        <li><a href="#">VỀ CHÚNG TÔI&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+        <li><a href="#">THẺ&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+        <li><a href="#"><div class="search-icon"><i class="fas fa-search"></i></div></a></li>
+			</ul>
+		</nav>
+	</header>
+    <br>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <a href="sanpham1.html"><img src="thumb-banner.png" style="width:100%"></a>
+      </div>
+      
+      <div class="mySlides fade">
+        <a href="sanpham1.html"><img src="thumb-banner-4-extra.png" style="width:100%"></a>
+      </div>
+      
+      <div class="mySlides fade">
+        <a href="sanpham1.html"><img src="thumb-banner-3.png" style="width:100%"></a>
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+      
+      <script>
+      let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); // Change image every 2 seconds
+      }
+      </script>
+
+    <br><br><br><br><br>
+    <table>
+        <table class="hidden-table">
+            <thead>
+              <tr>
+                <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                <th><img src="content-1.png" alt="Ảnh" class="image2"></th>
+                <th>
+                    <h2>TỪ NHỮNG MẦM TRÀ, CHÚNG TÔI TẠO RA<br> NIỀM ĐAM MÊ</h2>
+            <p>Trải qua hơn 50 năm chắt chiu tinh hoa từ những búp trà xanh và hạt cà <br> phê thượng hạng cùng mong muốn 
+                mang lại cho khách hàng những trải<br> nghiệm giá trị nhất khi thưởng thức, Phúc Long liên tục là thương hiệu<br> 
+                tiên phong với nhiều ý tưởng sáng tạo đi đầu trong ngành trà và cà phê.<br><br> 
+                Chúng tôi tin rằng từng sản phẩm trà và cà phê sẽ càng thêm hảo hạng<br> khi được tạo 
+                ra từ sự phấn đấu không ngừng cùng niềm đam mê. Và<br> chính kết nối dựa trên niềm tin, 
+                sự trung thực và tin yêu sẽ góp phần<br> mang đến những nét đẹp trong văn hóa thưởng trà và cà phê ngày càng<br> bay cao, vươn xa. </p>
+                <form action="#">
+                    <button class="csw-btn-button" type="submit">Xem thêm</button>
+                </form>
+                </th>
+              </tr>
+            </thead>
+          </table>
+          <br><br><br><br>
+          <table class="hidden-table">
+            <thead>
+              <tr>
+                <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                <th>
+                    <h2>ĐỘI NGŨ NHÂN VIÊN TRÀN ĐẦY NHIỆT <br> HUYẾT</h2>
+                    <p>Trong suốt quá trình hoạt động và phát triển, đội ngũ quản lý và 
+                    nhân viên <br> của An Yên Tea, qua bao thế hệ, đã cùng nhau xây dựng, 
+                    nuôi <br> dưỡng niềm đam mê dành cho trà và cà phê với mong muốn được thử thách<br> bản thân 
+                    trong ngành dịch vụ năng động và sáng tạo.</p>
+                <form action="#">
+                    <button class="csw-btn-button3" type="submit">Gia nhập đội ngũ An Yên</button>
+                </form>
+                </th>
+                <th><img src="content-2.png" alt="Ảnh" class="image5"></th>
+              </tr>
+            </thead>
+          </table>
+          <br><br><br>
+        <footer>
+          <table class="hidden-table">
+            <thead>
+              <tr>
+                <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                <th>
+                    <p id="call"><b>+Trụ sở chính:</b> Công ty Cổ Phần An Yên Heritage - ĐKKD: 0316 871719<br>
+                        do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021<br><br>
+                        <b>+Nhà máy:</b> D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước,<br> thị xã Bến Cát, tỉnh Bình Dương, Việt Nam<br><br>
+                        <b>+Địa chỉ:</b> Phòng 702, Tầng 7, Tòa nhà Central Plaza, số 17 Lê Duẩn, phường Bến Nghé,<br> quận 1, Hồ Chí Minh<br><br>
+                        <b>+Điện thoại:</b> 1900 234 518 (Ext.9100/ 9102)<br><br>
+                        <b>+Fax:</b> (028) 6263 0379<br><br>
+                        <b>+Email:</b> sales@anyen.masangroup.com<br>
+                        &nbsp&nbspinfo2@anyen.masangroup.com<br></p>
+                </th>
+                <th>
+                    <h5 id="call">Đăng ký nhận tin khuyến mãi</h5>
+                    <div>
+                      <input class="input1" id="hello" type="text" placeholder="Nhập địa chỉ Email">
+                      <button type="submit">Gửi</button>
+                    </div>
+                    <h5 id="call">Chính sách đặt hàng</h5>
+                    <h5 id="call">Chính sách bảo mật thông tin</h5>
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </footer>
+    </table>
+</body>
+</html>

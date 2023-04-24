@@ -1,0 +1,209 @@
+/* Thiết kế header */
+header {
+    border: 2px double #333;
+	background-color: rgb(246, 218, 167);
+	color: #fff;
+	padding: 15px;
+    box-shadow: 5px 10px #888888
+}
+
+header h1 {
+	margin: 0;
+}
+
+header nav ul {
+    text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+header nav li a {
+	color: #333;
+	text-decoration: none;
+    
+}
+/* Thiết kế icon kính lúp */
+.search-icon {
+	padding: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.search-icon i {
+	color: #333;
+	font-size: 24px;
+
+}
+/*slideshow*/
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Ẩn bảng */
+.hidden-table tbody tr {
+    display: none;
+}
+  
+  /* Hiển thị dòng */
+  .hidden-table tbody tr:hover {
+    display: table-row;
+}
+  
+  /* Thiết lập giao diện cho bảng */
+.hidden-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.hidden-table th,
+.hidden-table td {
+    padding: 8px;
+    text-align: left;
+}
+  
+.hidden-table th:first-child,
+.hidden-table td:first-child {
+    padding-left: 0;
+}
+table{
+    font-size: large;
+}
+.image2{
+    max-width: 600px;
+    height: auto;
+}
+.hidden-table h2{
+    color: green;
+}
+.csw-btn-button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    background-color: #0C713D;
+}
+.csw-btn-button:hover{
+    font-size: 20px;
+    color: white;
+    background: #0C713D;
+}
+.csw-btn-button3{
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    background-color: #0C713D;
+}
+.csw-btn-button3:hover{
+    font-size: 20px;
+    color: white;
+    background: #0C713D;
+}
+footer{
+    background-color: #0C713D;
+}
+#call{
+    font-size: small;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input1{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/* Ẩn bảng */
+.hidden-table3 tbody tr {
+    display: none;
+}
+  
+  /* Hiển thị dòng */
+  .hidden-table3 tbody tr:hover {
+    display: table-row;
+}
+  
+  /* Thiết lập giao diện cho bảng */
+.hidden-table3 {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.hidden-table3 th,
+.hidden-table3 td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+.hidden-table3 th:first-child,
+.hidden-table3 td:first-child {
+    padding-left: 0;
+}
+.image3{
+    max-width: 100px;
+    height: auto;
+}
+.gio{
+    font-size: small;
+    text-align: center;
+    color: green;
+    display: flex;
+}
+
+.image4{
+    max-width: 20px;
+    height: auto;
+}
+.image5{
+    width: 450px;
+    height: auto;
+}
+.image6{
+    max-width: 100px;
+    height: auto;
+}
